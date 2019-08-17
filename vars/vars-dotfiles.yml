@@ -7,4 +7,3 @@ dotfiles_files:
   - .bashrc
   - .gitconfig
   - .gitignore
-#  - .osx

@@ -4,19 +4,11 @@ homebrew_installed_packages:
   - ansible
   - dockutil
   - git
-  - go
   - gpg
-  - python
   - sqlite
-  - mcrypt
-#  - mysql
   - npm
   - nvm
-#  - php56
-#  - php56-mcrypt
-#  - php56-xdebug
   - ssh-copy-id
-  - readline
   - openssl
   - wget
   - composer
@@ -35,27 +27,18 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  # Browsers
+  ####### Browsers
   - google-chrome
   - firefoxdeveloperedition
-  # Cloud-based storage
-  - dropbox
+  ####### Cloud-based storage
   - google-drive
-  # Communication
-  - google-hangouts
-  # skype
-  - whatsapp
-  # Creative
-  # adobe-creative-cloud
+  ####### Creative
   - jetbrains-toolbox
-  # Entertainment
-  - steam
-  # kodi
+  ####### Entertainment
   - vlc
-  # Tools
-  - ccleaner
+  ####### Tools
   - iterm2
-  # Tools - Development
+  ####### Tools - Development
   - sublime-text
   - teamviewer
   - virtualbox
@@ -63,11 +46,5 @@ homebrew_cask_apps:
   - docker
   - docker-toolbox
   - lastpass
-  - cheatsheet
   - sequel-pro
-  - toggldesktop
   - transmit
-  # moneymoney
-  - slack
-  - dash
-  - launchbar
