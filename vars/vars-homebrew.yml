@@ -36,11 +36,11 @@ homebrew_cask_apps:
   ####### Communication
   - whatsapp
   - slack
+  - linphone
   ####### Tools
   - iterm2
   - filezilla
   - lastpass
-  - transmit
   - caffeine
   - transmit
   - microsoft-remote-desktop-beta
