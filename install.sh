@@ -25,9 +25,6 @@ if [[ -d "/Users/${WHOAMI}/.setup" ]]; then
     rm -rf "/Users/${WHOAMI}/.setup" > /dev/null;
 fi
 
-git clone https://github.com/JulianBour/mac-dev-playbook.git "/Users/${WHOAMI}/.setup" > /dev/null;
-git clone https://github.com/JulianBour/dotfiles.git "/Users/${WHOAMI}/Documents/dotfiles" > /dev/null;
-
 cd "/Users/${WHOAMI}/.setup/";
 
 echo "Installing requirements";
@@ -35,7 +32,7 @@ ansible-galaxy install -r ./requirements.yml;
 
 echo "Initiating playbook";
 
-ansible-playbook ./main.yml -i inventory -U $(whoami) --ask-become-pass;
-#sudo ansible-playbook ./main.yml -i inventory;
+ansible-playbook ./main.yml -i inventory -u $(whoami) --ask-become-pass;
+# ansible-playbook ./main.yml -i inventory;
 
 echo "Done.";

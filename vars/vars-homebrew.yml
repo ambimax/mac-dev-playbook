@@ -14,8 +14,6 @@ homebrew_installed_packages:
   - composer
   - modman
   - awscli
-  - n98-magerun
-  - n98-magerun2
 
 homebrew_taps:
   - caskroom/cask
@@ -29,22 +27,28 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   ####### Browsers
   - google-chrome
-  - firefoxdeveloperedition
+  - google-chrome-dev
+  - firefox-developer-edition
   ####### Cloud-based storage
-  - google-drive
-  ####### Creative
-  - jetbrains-toolbox
+  - google-drive-file-stream
   ####### Entertainment
   - vlc
+  ####### Communication
+  - whatsapp
+  - slack
   ####### Tools
   - iterm2
+  - filezilla
+  - lastpass
+  - transmit
+  - caffeine
+  - transmit
+  - microsoft-remote-desktop-beta
   ####### Tools - Development
   - sublime-text
   - teamviewer
-  - virtualbox
   - vagrant
   - docker
-  - docker-toolbox
-  - lastpass
   - sequel-pro
-  - transmit
+  - jetbrains-toolbox
+  - phpstorm
