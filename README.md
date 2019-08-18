@@ -1,22 +1,17 @@
-# Mac Development Ansible Playbook
+# Mac Ansible Playbook For Development
 
-This playbook installs and configures most of the software I use on my Mac for web and software development.
-
-This playbook will be updated throughout my life with various features, functions and roles - but they will always convey the same purpose.
+This playbook installs and configures most of the software you will need in development.
 
 ## Installation
 
-  Run the following from the command line, and enter your administrative password when requested.
+ Download the repository.
   
-  Note that initially you'll need to install xcode command line tools before you can proceed.
+  1. `git clone --branch management-tools git@github.com:ambimax/mac-dev-playbook.git`
   
-  1. `xcode-select --install`
-  
-  2. `chown root:admin /usr/local/`
-  
-  3. `chmod 775 /usr/local`
-  
-  4. `curl https://raw.githubusercontent.com/JulianBour/mac-dev-playbook/master/install.sh | bash`
+  2. `cd mac-dev-playbook`
+ 
+  2. `bash install.sh`
+
 
 ## Included Applications / Configuration
 
@@ -64,12 +59,6 @@ This playbook will be updated throughout my life with various features, function
   - ssh-copy-id
   - openssl
   - wget
-  
-### Apple Store Products
-
-  - Dont't Sleep
-  - Lastpass
-  - Microsoft Remote Desktop
   
 # Dotfiles
 
