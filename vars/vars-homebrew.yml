@@ -13,7 +13,6 @@ homebrew_installed_packages:
   - wget
   - composer
   - modman
-  - awscli
 
 homebrew_taps:
   - caskroom/cask
@@ -27,8 +26,7 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   ####### Browsers
   - google-chrome
-  - google-chrome-dev
-  - firefox-developer-edition
+  - firefox
   ####### Cloud-based storage
   - google-drive-file-stream
   ####### Entertainment
@@ -36,13 +34,13 @@ homebrew_cask_apps:
   ####### Communication
   - whatsapp
   - slack
+  - linphone
   ####### Tools
   - iterm2
   - filezilla
   - lastpass
   - transmit
   - caffeine
-  - transmit
   - microsoft-remote-desktop-beta
   ####### Tools - Development
   - sublime-text
@@ -50,5 +48,3 @@ homebrew_cask_apps:
   - vagrant
   - docker
   - sequel-pro
-  - jetbrains-toolbox
-  - phpstorm
