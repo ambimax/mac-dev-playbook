@@ -6,7 +6,7 @@ This playbook installs and configures most of the software you will need in deve
 
  Download the repository.
   
-  1. `git clone --branch management-tools git@github.com:ambimax/mac-dev-playbook.git`
+  1. `git clone --branch developer-tools git@github.com:ambimax/mac-dev-playbook.git`
   
   2. `cd mac-dev-playbook`
  
